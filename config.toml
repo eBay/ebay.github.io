@@ -1,3 +1,21 @@
-baseURL = 'http://example.org/'
+baseURL = 'http://ebay.github.io/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'eBay Open Source Program'
+# images = ['images/ebay.png']
+# theme = 'techdoc'
+theme = 'book'
+
+[params]
+
+# # techdoc
+# menu_style = "open-menu"
+# menu_exclusion = []
+
+# custom_background_color='#93c9ff'
+# custom_font_color='#121258'
+
+# github_repository='https://github.com/ebay/ebay.github.io'
+
+
+
+BookMenuBundle = /menu
