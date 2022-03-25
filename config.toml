@@ -2,20 +2,18 @@ baseURL = 'http://ebay.github.io/'
 languageCode = 'en-us'
 title = 'eBay Open Source Program'
 # images = ['images/ebay.png']
-# theme = 'techdoc'
-theme = 'book'
+theme = 'techdoc'
 
 [params]
 
-# # techdoc
-# menu_style = "open-menu"
-# menu_exclusion = []
+# techdoc
+menu_style = "open-menu"
+menu_exclusion = []
 
 # custom_background_color='#93c9ff'
 # custom_font_color='#121258'
 
-# github_repository='https://github.com/ebay/ebay.github.io'
+github_repository='https://github.com/ebay/ebay.github.io'
 
-
-
-BookMenuBundle = /menu
+logo = '/images/ebay-logo.png'
+logo_alt_text = 'eBay'
