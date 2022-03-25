@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 ![Enabled by people. Powered by technology. Open to everyone.](images/ebay-oss-banner.png)
+=======
+![Enabled by people. Powered by technology. Open to everyone.](/images/ebay-oss-banner.png)
+>>>>>>> 3c3bcdf... Add initial content
 
 eBay believes that collaboration with the open-source community makes for improved technology and drives innovation. Being a good community member reflects the core of what eBay does, and we encourage everyone to seek out, develop, and contribute good code.
 
