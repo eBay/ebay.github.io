@@ -1,6 +1,60 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Contributing to Open Source on eBay Open Source Program</title><link>https://pages.github.corp.ebay.com/vat/oss-website/contributing/</link><description>Recent content in Contributing to Open Source on eBay Open Source Program</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><atom:link href="https://pages.github.corp.ebay.com/vat/oss-website/contributing/index.xml" rel="self" type="application/rss+xml"/><item><title>Outbound contribution</title><link>https://pages.github.corp.ebay.com/vat/oss-website/contributing/outbound-contribution/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pages.github.corp.ebay.com/vat/oss-website/contributing/outbound-contribution/</guid><description>Outbound projects/repositories are developed internally at eBay and released publicly to the open-source community on eBay’s public open source site (github.com/ebay). These repositories are governed by our external Code of Conduct, in addition to internal eBay policies. The following steps are required when creating your outbound project and before submitting it for approval to eBay’s Open Source Committee (the Committee):
-Name Your Project/Repository: choose a descriptive and easy to remember name that clearly sets out what the project is.</description></item><item><title>Approval process</title><link>https://pages.github.corp.ebay.com/vat/oss-website/contributing/receiving-approval/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pages.github.corp.ebay.com/vat/oss-website/contributing/receiving-approval/</guid><description>Considerations When considering a project for approval, the following factors are considered by the Committee:
-Is the project likely to improve the OSS community’s technology? e.g., the code does not duplicate other existing OSS projects and offers some unique value to the community. Is the project likely to improve eBay’s overall code quality and/or technology? e.g., eBay will use the project internally and will benefit from community contributions to the code.</description></item><item><title>CLA vs DCO</title><link>https://pages.github.corp.ebay.com/vat/oss-website/contributing/cla-or-dco/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pages.github.corp.ebay.com/vat/oss-website/contributing/cla-or-dco/</guid><description>A contributory license agreement (CLA) is used to document that you and eBay have the right to (1) submit the work you are submitting, and (2) that you permit the third party project to use your work. For example, when an eBay employee wants to contribute to a Linux Foundation open source project and signs a CLA provided by the Linux Foundation, that CLA documents that the eBay employee has the right to contribute the code and that the Linux Foundation has the right to distribute the contributed code under its license.</description></item><item><title>Incentives</title><link>https://pages.github.corp.ebay.com/vat/oss-website/contributing/incentives/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pages.github.corp.ebay.com/vat/oss-website/contributing/incentives/</guid><description>Full time eBay employees are eligible to receive the following OSS awards:
-OSS Contributor’s Jacket inscribed with eBay’s OSS logo – upon the release of your first outbound open source project Open Source Badges on your hub page that reflect your OSS contributions $50-$100 gift cards for each OSS outbound project after the first</description></item><item><title>Licenses</title><link>https://pages.github.corp.ebay.com/vat/oss-website/contributing/licenses/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pages.github.corp.ebay.com/vat/oss-website/contributing/licenses/</guid><description>While all projects require approval from the Committee, inbound &amp;amp; outbound projects licensed under the following licenses will more likely be approved with less license scrutiny and can be considered eBay’s preferred licenses:
-MIT Apache 2.0 BSD-2 Creative Commons Projects associated with the following licenses are not likely to be approved by the Committee without a significant review, audit, and benefit-to-risk assessment:
-GPL AGPL SSPL MPL EPL LGPL</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Contributing to Open Source on eBay Open Source Program</title>
+    <link>https://pages.github.corp.ebay.com/vat/oss-website/contributing/</link>
+    <description>Recent content in Contributing to Open Source on eBay Open Source Program</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://pages.github.corp.ebay.com/vat/oss-website/contributing/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Outbound contribution</title>
+      <link>https://pages.github.corp.ebay.com/vat/oss-website/contributing/outbound-contribution/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pages.github.corp.ebay.com/vat/oss-website/contributing/outbound-contribution/</guid>
+      <description>Outbound projects/repositories are developed internally at eBay and released publicly to the open-source community on eBay’s public open source site (github.com/ebay). These repositories are governed by our external Code of Conduct, in addition to internal eBay policies. The following steps are required when creating your outbound project and before submitting it for approval to eBay’s Open Source Committee (the Committee):
+ Name Your Project/Repository: choose a descriptive and easy to remember name that clearly sets out what the project is.</description>
+    </item>
+    
+    <item>
+      <title>Approval process</title>
+      <link>https://pages.github.corp.ebay.com/vat/oss-website/contributing/receiving-approval/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pages.github.corp.ebay.com/vat/oss-website/contributing/receiving-approval/</guid>
+      <description>Considerations When considering a project for approval, the following factors are considered by the Committee:
+ Is the project likely to improve the OSS community’s technology? e.g., the code does not duplicate other existing OSS projects and offers some unique value to the community. Is the project likely to improve eBay’s overall code quality and/or technology? e.g., eBay will use the project internally and will benefit from community contributions to the code.</description>
+    </item>
+    
+    <item>
+      <title>CLA vs DCO</title>
+      <link>https://pages.github.corp.ebay.com/vat/oss-website/contributing/cla-or-dco/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pages.github.corp.ebay.com/vat/oss-website/contributing/cla-or-dco/</guid>
+      <description>A contributory license agreement (CLA) is used to document that you and eBay have the right to (1) submit the work you are submitting, and (2) that you permit the third party project to use your work. For example, when an eBay employee wants to contribute to a Linux Foundation open source project and signs a CLA provided by the Linux Foundation, that CLA documents that the eBay employee has the right to contribute the code and that the Linux Foundation has the right to distribute the contributed code under its license.</description>
+    </item>
+    
+    <item>
+      <title>Incentives</title>
+      <link>https://pages.github.corp.ebay.com/vat/oss-website/contributing/incentives/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pages.github.corp.ebay.com/vat/oss-website/contributing/incentives/</guid>
+      <description>Full time eBay employees are eligible to receive the following OSS awards:
+ OSS Contributor’s Jacket inscribed with eBay’s OSS logo – upon the release of your first outbound open source project Open Source Badges on your hub page that reflect your OSS contributions $50-$100 gift cards for each OSS outbound project after the first  </description>
+    </item>
+    
+    <item>
+      <title>Licenses</title>
+      <link>https://pages.github.corp.ebay.com/vat/oss-website/contributing/licenses/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pages.github.corp.ebay.com/vat/oss-website/contributing/licenses/</guid>
+      <description>While all projects require approval from the Committee, inbound &amp;amp; outbound projects licensed under the following licenses will more likely be approved with less license scrutiny and can be considered eBay’s preferred licenses:
+ MIT Apache 2.0 BSD-2 Creative Commons  Projects associated with the following licenses are not likely to be approved by the Committee without a significant review, audit, and benefit-to-risk assessment:
+ GPL AGPL SSPL MPL EPL LGPL  </description>
+    </item>
+    
+  </channel>
+</rss>
