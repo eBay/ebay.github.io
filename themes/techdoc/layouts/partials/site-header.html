@@ -1,6 +1,6 @@
 <header>
   {{with .Site.Params.logo -}}
-  <img class="logo" src="{{ . }}"/>
+  <img class="logo" src="{{ . | relURL }}"/>
   {{- end -}}
 <h1>{{ .Site.Title }}</h1>
 {{- with .Site.Params.version -}}
