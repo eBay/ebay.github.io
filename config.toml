@@ -15,5 +15,5 @@ menu_exclusion = []
 
 github_repository='https://github.com/ebay/ebay.github.io'
 
-logo = './images/ebay-logo.png'
+logo = '/images/ebay-logo.png'
 logo_alt_text = 'eBay'
