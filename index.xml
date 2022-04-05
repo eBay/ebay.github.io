@@ -65,5 +65,15 @@
  GPL AGPL SSPL MPL EPL LGPL  </description>
     </item>
     
+    <item>
+      <title>Repository Best Practices</title>
+      <link>https://pages.github.corp.ebay.com/vat/oss-website/contributing/repo-best-practices/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pages.github.corp.ebay.com/vat/oss-website/contributing/repo-best-practices/</guid>
+      <description>To ensure that we adhere to general community expectations, there are some common requirements we have within eBay&amp;rsquo;s open source code.
+README You MUST to have a README file. It should cover what the project is, why someone might want to use it, and general instructions on how to use the thing. You may also want to include badges at the top, like your travis-ci build status, code coverage, etc.</description>
+    </item>
+    
   </channel>
 </rss>
