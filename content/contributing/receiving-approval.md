@@ -12,7 +12,7 @@ When considering a project for approval, the following factors are considered by
 - Are there patents protecting this work? We can't simultaneously say "we want to patent this so no one takes our good idea" and also "here's this free code that you should definitely go use".
 
 ## Process
-When you're ready [submit a review ticket](https://go/ossrequest). This will add a few subtasks assigned to you. Among them, you'll need to file a security review ticket (instructions provided in the ticket) as well as ensure your repository follows [our best practices](@@@ FIXME).
+When you're ready [submit a review ticket](https://go/ossrequest). This will add a few subtasks assigned to you. Among them, you'll need to file a security review ticket (instructions provided in the ticket) as well as ensure your repository follows [our best practices](../repo-best-practices/)
 
 We aim for timely feedback and will get back to you within 7 days (hopefully fewer!) of your subtasks being closed. Communication happens through JIRA, so be sure they're not stuck in your spam folder. If you have associated timelines that you need to hit, please make those known. To be safe, we recommend making your request at least 30 days before you need it approved.
 
