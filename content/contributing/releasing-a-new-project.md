@@ -1,5 +1,5 @@
 ---
-title: Outbound contribution
+title: Releasing a new project
 weight: 1
 ---
 
