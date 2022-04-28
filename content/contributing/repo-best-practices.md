@@ -10,6 +10,8 @@ You MUST to have a `README` file. It should cover what the project is, why someo
 
 The format of this file isn't important, but we often use markdown.
 
+[Here's a good guideline on what to include in your README.](https://www.makeareadme.com/)
+
 ## LICENSE
 
 You MUST have a `LICENSE` file. It should be the license that you have previously discussed with the open source / legal team, prior to open sourcing it.
@@ -20,3 +22,5 @@ You may want have a `contributing.md` file. It provides instructions to people w
 - How to get a development environment setup
 - How to run the tests
 - Any PR/commit formatting requirements
+
+[Here's a great example of one.](https://github.com/marko-js/marko/blob/main/.github/CONTRIBUTING.md)
