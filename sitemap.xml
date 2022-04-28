@@ -2,29 +2,29 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://pages.github.corp.ebay.com/vat/oss-website/contributing/releasing-a-new-project/</loc>
+    <loc>https://ebay.github.io/contributing/releasing-a-new-project/</loc>
   </url><url>
-    <loc>https://pages.github.corp.ebay.com/vat/oss-website/contributing/receiving-approval/</loc>
+    <loc>https://ebay.github.io/contributing/receiving-approval/</loc>
   </url><url>
-    <loc>https://pages.github.corp.ebay.com/vat/oss-website/what-is-open-source/</loc>
+    <loc>https://ebay.github.io/what-is-open-source/</loc>
   </url><url>
-    <loc>https://pages.github.corp.ebay.com/vat/oss-website/</loc>
+    <loc>https://ebay.github.io/</loc>
     <priority>0</priority>
   </url><url>
-    <loc>https://pages.github.corp.ebay.com/vat/oss-website/categories/</loc>
+    <loc>https://ebay.github.io/categories/</loc>
   </url><url>
-    <loc>https://pages.github.corp.ebay.com/vat/oss-website/contributing/cla-or-dco/</loc>
+    <loc>https://ebay.github.io/contributing/cla-or-dco/</loc>
   </url><url>
-    <loc>https://pages.github.corp.ebay.com/vat/oss-website/contributing/</loc>
+    <loc>https://ebay.github.io/contributing/</loc>
   </url><url>
-    <loc>https://pages.github.corp.ebay.com/vat/oss-website/faq/</loc>
+    <loc>https://ebay.github.io/faq/</loc>
   </url><url>
-    <loc>https://pages.github.corp.ebay.com/vat/oss-website/contributing/incentives/</loc>
+    <loc>https://ebay.github.io/contributing/incentives/</loc>
   </url><url>
-    <loc>https://pages.github.corp.ebay.com/vat/oss-website/contributing/licenses/</loc>
+    <loc>https://ebay.github.io/contributing/licenses/</loc>
   </url><url>
-    <loc>https://pages.github.corp.ebay.com/vat/oss-website/contributing/repo-best-practices/</loc>
+    <loc>https://ebay.github.io/contributing/repo-best-practices/</loc>
   </url><url>
-    <loc>https://pages.github.corp.ebay.com/vat/oss-website/tags/</loc>
+    <loc>https://ebay.github.io/tags/</loc>
   </url>
 </urlset>
