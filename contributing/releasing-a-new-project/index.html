@@ -1,103 +1,78 @@
-<!DOCTYPE html>
-<html lang="en-us">
-<head><meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<!doctype html><html lang=en-us>
+<head><meta charset=utf-8>
+<meta http-equiv=x-ua-compatible content="IE=edge">
+<meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
 <title>Releasing a new project - eBay Open Source Program</title>
-<meta name="generator" content="Hugo 0.96.0" />
-<link href="https://ebay.github.io//index.xml" rel="alternate" type="application/rss+xml">
-<link rel="canonical" href="https://ebay.github.io/contributing/releasing-a-new-project/">
-<link rel="stylesheet" href="https://ebay.github.io/css/theme.css">
-<script src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
-<link rel="stylesheet" href="https://ebay.github.io/css/chroma.min.css">
-<script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/jquery.easing@1.4.1/jquery.easing.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.6/dist/clipboard.min.js"></script>
-<script src="https://ebay.github.io/js/bundle.js"></script><style>
-:root {}
-</style>
-<meta property="og:title" content="Releasing a new project" />
+<meta name=generator content="Hugo 0.91.2">
+<link href=https://ebay.github.io//index.xml rel=alternate type=application/rss+xml>
+<link rel=canonical href=https://ebay.github.io/contributing/releasing-a-new-project/>
+<link rel=stylesheet href=https://ebay.github.io/css/theme.css>
+<script src=https://use.fontawesome.com/releases/v5.0.6/js/all.js></script>
+<link rel=stylesheet href=https://ebay.github.io/css/chroma.min.css>
+<script src=https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js></script>
+<script src=https://cdn.jsdelivr.net/npm/jquery.easing@1.4.1/jquery.easing.min.js></script>
+<script src=https://cdn.jsdelivr.net/npm/clipboard@2.0.6/dist/clipboard.min.js></script>
+<script src=https://ebay.github.io/js/bundle.js></script><style>:root{}</style>
+<meta property="og:title" content="Releasing a new project">
 <meta property="og:description" content="Outbound projects/repositories are developed internally at eBay and released publicly to the open-source community on eBay’s public open source site (github.com/ebay). These repositories are governed by our external Code of Conduct, in addition to internal eBay policies. The following steps are required when creating your outbound project and before submitting it for approval to eBay’s Open Source Committee (the Committee):
- Name Your Project/Repository: choose a descriptive and easy to remember name that clearly sets out what the project is." />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="https://ebay.github.io/contributing/releasing-a-new-project/" /><meta property="article:section" content="contributing" />
-
-
-
-<meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Releasing a new project"/>
-<meta name="twitter:description" content="Outbound projects/repositories are developed internally at eBay and released publicly to the open-source community on eBay’s public open source site (github.com/ebay). These repositories are governed by our external Code of Conduct, in addition to internal eBay policies. The following steps are required when creating your outbound project and before submitting it for approval to eBay’s Open Source Committee (the Committee):
- Name Your Project/Repository: choose a descriptive and easy to remember name that clearly sets out what the project is."/>
-<meta itemprop="name" content="Releasing a new project">
-<meta itemprop="description" content="Outbound projects/repositories are developed internally at eBay and released publicly to the open-source community on eBay’s public open source site (github.com/ebay). These repositories are governed by our external Code of Conduct, in addition to internal eBay policies. The following steps are required when creating your outbound project and before submitting it for approval to eBay’s Open Source Committee (the Committee):
  Name Your Project/Repository: choose a descriptive and easy to remember name that clearly sets out what the project is.">
-
-<meta itemprop="wordCount" content="271">
-<meta itemprop="keywords" content="" /></head>
-<body><div class="container"><header>
-  <img class="logo" src="/images/ebay-logo.png"/><h1>eBay Open Source Program</h1><a href="https://github.com/ebay/ebay.github.io" class="github"><i class="fab fa-github"></i></a>
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://ebay.github.io/contributing/releasing-a-new-project/"><meta property="article:section" content="contributing">
+<meta name=twitter:card content="summary">
+<meta name=twitter:title content="Releasing a new project">
+<meta name=twitter:description content="Outbound projects/repositories are developed internally at eBay and released publicly to the open-source community on eBay’s public open source site (github.com/ebay). These repositories are governed by our external Code of Conduct, in addition to internal eBay policies. The following steps are required when creating your outbound project and before submitting it for approval to eBay’s Open Source Committee (the Committee):
+ Name Your Project/Repository: choose a descriptive and easy to remember name that clearly sets out what the project is.">
+<meta itemprop=name content="Releasing a new project">
+<meta itemprop=description content="Outbound projects/repositories are developed internally at eBay and released publicly to the open-source community on eBay’s public open source site (github.com/ebay). These repositories are governed by our external Code of Conduct, in addition to internal eBay policies. The following steps are required when creating your outbound project and before submitting it for approval to eBay’s Open Source Committee (the Committee):
+ Name Your Project/Repository: choose a descriptive and easy to remember name that clearly sets out what the project is.">
+<meta itemprop=wordCount content="271">
+<meta itemprop=keywords content></head>
+<body><div class=container><header>
+<img class=logo src=/images/ebay-logo.png><h1>eBay Open Source Program</h1><a href=https://github.com/ebay/ebay.github.io class=github><i class="fab fa-github"></i></a>
 </header>
-
-<div class="content-container">
+<div class=content-container>
 <main><h1>Releasing a new project</h1>
-<p>Outbound projects/repositories are developed internally at eBay and released publicly to the open-source community on eBay’s public open source site (<a href="https://github.com/ebay">github.com/ebay</a>). These repositories are governed by our <a href="https://github.com/eBay/.github/blob/main/CODE_OF_CONDUCT.md">external Code of Conduct</a>, in addition to internal eBay policies. The following steps are required when creating your outbound project and before submitting it for approval to eBay’s Open Source Committee (the Committee):</p>
+<p>Outbound projects/repositories are developed internally at eBay and released publicly to the open-source community on eBay’s public open source site (<a href=https://github.com/ebay>github.com/ebay</a>). These repositories are governed by our <a href=https://github.com/eBay/.github/blob/main/CODE_OF_CONDUCT.md>external Code of Conduct</a>, in addition to internal eBay policies. The following steps are required when creating your outbound project and before submitting it for approval to eBay’s Open Source Committee (the Committee):</p>
 <ul>
 <li>Name Your Project/Repository: choose a descriptive and easy to remember name that clearly sets out what the project is.</li>
 <li>Have Your Code Reviewed: have someone review your code both for good coding practices and to remove any proprietary or confidential eBay information</li>
-<li>Include a README file: state what your project does in plain, easy to read language, and provide documentation where appropriate. (<a href="https://github.com/open-telemetry/opentelemetry-js#readme">example</a>)</li>
-<li>Include a LICENSE file: eBay requires a separate license file in your top-level directory. Your license file (e.g., license.txt, license.md) must contain a verbatim copy of your approved license. eBay’s preferred license is <a href="https://opensource.org/licenses/Apache-2.0">Apache 2.0</a>. If you need to use a different license, you must receive approval from eBay’s open source legal counsel. If the license is too long to be copied verbatim, you must include a link to the official license.</li>
+<li>Include a README file: state what your project does in plain, easy to read language, and provide documentation where appropriate. (<a href=https://github.com/open-telemetry/opentelemetry-js#readme>example</a>)</li>
+<li>Include a LICENSE file: eBay requires a separate license file in your top-level directory. Your license file (e.g., license.txt, license.md) must contain a verbatim copy of your approved license. eBay’s preferred license is <a href=https://opensource.org/licenses/Apache-2.0>Apache 2.0</a>. If you need to use a different license, you must receive approval from eBay’s open source legal counsel. If the license is too long to be copied verbatim, you must include a link to the official license.</li>
 </ul>
-<p>Here&rsquo;s a <a href="https://github.com/open-telemetry/opentelemetry-js#readme">good example repo</a>.</p>
-<h2 id="maintenance-expectations">Maintenance expectations</h2>
+<p>Here&rsquo;s a <a href=https://github.com/open-telemetry/opentelemetry-js#readme>good example repo</a>.</p>
+<h2 id=maintenance-expectations>Maintenance expectations</h2>
 <p>We want our GitHub presence to be a vibrant playground of collaboration. We want
 you to engage with the communities your project. This includes responding to
 issues and pull requests, keeping your dependencies up to date for security
 reasons, and more. If a repository is dormant for a long period of time, we may
 archive it so users are clear on what they should expect regarding support from eBay.</p>
-<div class="edit-meta">
-
-<br></div><nav class="pagination"><a class="nav nav-prev" href="https://ebay.github.io/contributing/" title="Contributing to Open Source"><i class="fas fa-arrow-left" aria-hidden="true"></i>&nbsp;Prev - Contributing to Open Source</a>
-<a class="nav nav-next" href="https://ebay.github.io/contributing/receiving-approval/" title="Approval process">Next - Approval process <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
-</nav><footer><p class="powered">Powered by <a href="https://gohugo.io">Hugo</a>. Theme by <a href="https://themes.gohugo.io/hugo-theme-techdoc/">TechDoc</a>. Designed by <a href="https://github.com/thingsym/hugo-theme-techdoc">Thingsym</a>.</p>
+<div class=edit-meta>
+<br></div><nav class=pagination><a class="nav nav-prev" href=https://ebay.github.io/contributing/ title="Contributing to Open Source"><i class="fas fa-arrow-left" aria-hidden=true></i>&nbsp;Prev - Contributing to Open Source</a>
+<a class="nav nav-next" href=https://ebay.github.io/contributing/receiving-approval/ title="Approval process">Next - Approval process <i class="fas fa-arrow-right" aria-hidden=true></i></a>
+</nav><footer><p class=powered>Powered by <a href=https://gohugo.io>Hugo</a>. Theme by <a href=https://themes.gohugo.io/hugo-theme-techdoc/>TechDoc</a>. Designed by <a href=https://github.com/thingsym/hugo-theme-techdoc>Thingsym</a>.</p>
 </footer>
 </main>
-<div class="sidebar">
-
-<nav class="open-menu">
+<div class=sidebar>
+<nav class=open-menu>
 <ul>
-<li class=""><a href="https://ebay.github.io/">Home</a></li>
-
-<li class="parent"><a href="https://ebay.github.io/contributing/">Contributing to Open Source</a>
-  
-<ul class="sub-menu">
-<li class="active"><a href="https://ebay.github.io/contributing/releasing-a-new-project/">Releasing a new project</a></li>
-<li class=""><a href="https://ebay.github.io/contributing/receiving-approval/">Approval process</a></li>
-<li class=""><a href="https://ebay.github.io/contributing/cla-or-dco/">CLA vs DCO</a></li>
-<li class=""><a href="https://ebay.github.io/contributing/incentives/">Incentives</a></li>
-<li class=""><a href="https://ebay.github.io/contributing/licenses/">Licenses</a></li>
-<li class=""><a href="https://ebay.github.io/contributing/repo-best-practices/">Repository Best Practices</a></li>
+<li><a href=https://ebay.github.io/>Home</a></li>
+<li class=parent><a href=https://ebay.github.io/contributing/>Contributing to Open Source</a>
+<ul class=sub-menu>
+<li class=active><a href=https://ebay.github.io/contributing/releasing-a-new-project/>Releasing a new project</a></li>
+<li><a href=https://ebay.github.io/contributing/receiving-approval/>Approval process</a></li>
+<li><a href=https://ebay.github.io/contributing/cla-or-dco/>CLA vs DCO</a></li>
+<li><a href=https://ebay.github.io/contributing/incentives/>Incentives</a></li>
+<li><a href=https://ebay.github.io/contributing/licenses/>Licenses</a></li>
+<li><a href=https://ebay.github.io/contributing/repo-best-practices/>Repository Best Practices</a></li>
 </ul>
-  
 </li>
-
-<li class=""><a href="https://ebay.github.io/faq/">FAQ</a>
-  
+<li><a href=https://ebay.github.io/faq/>FAQ</a>
 </li>
 </ul>
 </nav>
-
-
-
-<div class="sidebar-footer"></div>
+<div class=sidebar-footer></div>
 </div>
-
-</div><a href="#" id="backtothetop-fixed" class="backtothetop"
- data-backtothetop-duration="600"
- data-backtothetop-easing="easeOutQuart"
- data-backtothetop-fixed-fadeIn="1000"
- data-backtothetop-fixed-fadeOut="1000"
- data-backtothetop-fixed-bottom="10"
- data-backtothetop-fixed-right="20">
+</div><a href=# id=backtothetop-fixed class=backtothetop data-backtothetop-duration=600 data-backtothetop-easing=easeOutQuart data-backtothetop-fixed-fadein=1000 data-backtothetop-fixed-fadeout=1000 data-backtothetop-fixed-bottom=10 data-backtothetop-fixed-right=20>
 <span class="fa-layers fa-fw">
 <i class="fas fa-circle"></i>
 <i class="fas fa-arrow-circle-up"></i>
