@@ -3,8 +3,11 @@ title: Releasing a new project
 weight: 1
 ---
 
-Outbound projects/repositories are developed internally at eBay and released publicly to the open-source community on eBay’s public open source site ([github.com/ebay](https://github.com/ebay)). These repositories are governed by our [external Code of Conduct](https://github.com/eBay/.github/blob/main/CODE_OF_CONDUCT.md), in addition to internal eBay policies. The following steps are required when creating your outbound project and before submitting it for approval to eBay’s Open Source Committee (the Committee):
+Outbound projects/repositories are developed internally at eBay and released publicly to the open-source community on eBay’s public open source site ([github.com/ebay](https://github.com/ebay)). These repositories are governed by our [external Code of Conduct](https://github.com/eBay/.github/blob/main/CODE_OF_CONDUCT.md), in addition to internal eBay policies.
 
+The following steps are required when creating your outbound project and before submitting it for approval to eBay’s Open Source Committee (the Committee):
+
+- Create a repository internally, which is what we'll use to review & run tooling against.
 - Name Your Project/Repository: choose a descriptive and easy to remember name that clearly sets out what the project is.
 - Have Your Code Reviewed: have someone review your code both for good coding practices and to remove any proprietary or confidential eBay information
 - Include a README file: state what your project does in plain, easy to read language, and provide documentation where appropriate. ([example](https://github.com/open-telemetry/opentelemetry-js#readme))
