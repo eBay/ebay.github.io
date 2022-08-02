@@ -1145,11 +1145,6 @@ header {
   background: var(--custom-background-color, #000);
   padding: 0.5rem 1.28rem;
 }
-
-header .logo {
-	float: left;
-}
-
 header h1 {
   font-size: 140%;
   display: inline-block;
