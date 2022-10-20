@@ -15,10 +15,10 @@ While all projects require approval from the Committee, inbound & outbound proje
 These licenses are considered on a case-by-case basis (significant review, audit, and benefit-to-risk assessment) and are considered "yellow":
 - LGPL
 - MPL 2.0
+- EPL
 
 Projects associated with the following licenses are not likely to be approved by the Committee, e.g. "red":
 - GPL
 - AGPL
 - SSPL
 - MPL
-- EPL
