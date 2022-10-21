@@ -49,7 +49,7 @@ Java Run this to get the dependency license list.">
 # do the thing to build the project
 snyk test --all-projects
 </code></pre><h2 id=license-compliance>License Compliance</h2>
-<p>We want to ensure that the software we build is in compliance with our <a href=./licences.md>licensing guidance</a>. This is language dependent.</p>
+<p>We want to ensure that the software we build is in compliance with our <a href=../licences.md>licensing guidance</a>. This is language dependent.</p>
 <h3 id=java>Java</h3>
 <p>Run this to get the dependency license list.</p>
 <pre tabindex=0><code>mvn org.codehaus.mojo:license-maven-plugin:aggregate-third-party-report
@@ -57,7 +57,7 @@ snyk test --all-projects
 <h3 id=nodejs>Node.js</h3>
 <p>After installing dependencies, run this:</p>
 <pre tabindex=0><code>npx license-checker --exclude &quot;MIT,ISC,BSD-3-Clause,Apache-2.0,BSD-2-Clause,0BSD,CC-BY-4.0&quot; --unknown
-</code></pre><p>That exclusion list should match our known <a href=./licences.md>green license list</a>.</p>
+</code></pre><p>That exclusion list should match our known <a href=../licences.md>green license list</a>.</p>
 <h3 id=python>Python</h3>
 <pre tabindex=0><code>pip3 install --user pylic
 cd path/to/repo
