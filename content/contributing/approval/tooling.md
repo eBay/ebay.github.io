@@ -1,5 +1,5 @@
 ---
-title: Tooling for open sourcing something
+title: Tooling
 weight: 1
 ---
 

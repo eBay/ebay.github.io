@@ -1,6 +1,5 @@
 ---
 title: Approval process
-weight: 2
 ---
 
 ## Considerations
