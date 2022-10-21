@@ -3,7 +3,6 @@ title: Tooling
 weight: 1
 ---
 
-
 When open sourcing a repository, we run a few compliance checks.
 
 ## Security
@@ -19,7 +18,7 @@ snyk test --all-projects
 
 
 ## License Compliance
-We want to ensure that the software we build is in compliance with our [licensing guidance](./licences.md). This is language dependent.
+We want to ensure that the software we build is in compliance with our [licensing guidance](../licences.md). This is language dependent.
 
 ### Java
 
@@ -36,7 +35,7 @@ After installing dependencies, run this:
 npx license-checker --exclude "MIT,ISC,BSD-3-Clause,Apache-2.0,BSD-2-Clause,0BSD,CC-BY-4.0" --unknown
 ```
 
-That exclusion list should match our known [green license list](./licences.md).
+That exclusion list should match our known [green license list](../licences.md).
 
 ### Python
 
