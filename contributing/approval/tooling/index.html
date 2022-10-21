@@ -2,10 +2,10 @@
 <head><meta charset=utf-8>
 <meta http-equiv=x-ua-compatible content="IE=edge">
 <meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
-<title>Tooling for open sourcing something - eBay Open Source Program</title>
+<title>Tooling - eBay Open Source Program</title>
 <meta name=generator content="Hugo 0.91.2">
 <link href=https://ebay.github.io//index.xml rel=alternate type=application/rss+xml>
-<link rel=canonical href=https://ebay.github.io/contributing/tooling/>
+<link rel=canonical href=https://ebay.github.io/contributing/approval/tooling/>
 <link rel=stylesheet href=https://ebay.github.io/css/theme.min.css>
 <script src=https://use.fontawesome.com/releases/v5.0.6/js/all.js></script>
 <link rel=stylesheet href=https://ebay.github.io/css/chroma.min.css>
@@ -13,22 +13,22 @@
 <script src=https://cdn.jsdelivr.net/npm/jquery.easing@1.4.1/jquery.easing.min.js></script>
 <script src=https://cdn.jsdelivr.net/npm/clipboard@2.0.6/dist/clipboard.min.js></script>
 <script src=https://ebay.github.io/js/bundle.js></script><style>:root{}</style>
-<meta property="og:title" content="Tooling for open sourcing something">
+<meta property="og:title" content="Tooling">
 <meta property="og:description" content="When open sourcing a repository, we run a few compliance checks.
 Security We run snyk on all outgoing repositories. Snyk requires the build to happen, such that all the relevant dependencies are downloaded.
 Usage:
 cd path/to/repo # do the thing to build the project snyk test --all-projects License Compliance We want to ensure that the software we build is in compliance with our licensing guidance. This is language dependent.
 Java Run this to get the dependency license list.">
 <meta property="og:type" content="article">
-<meta property="og:url" content="https://ebay.github.io/contributing/tooling/"><meta property="article:section" content="contributing">
+<meta property="og:url" content="https://ebay.github.io/contributing/approval/tooling/"><meta property="article:section" content="contributing">
 <meta name=twitter:card content="summary">
-<meta name=twitter:title content="Tooling for open sourcing something">
+<meta name=twitter:title content="Tooling">
 <meta name=twitter:description content="When open sourcing a repository, we run a few compliance checks.
 Security We run snyk on all outgoing repositories. Snyk requires the build to happen, such that all the relevant dependencies are downloaded.
 Usage:
 cd path/to/repo # do the thing to build the project snyk test --all-projects License Compliance We want to ensure that the software we build is in compliance with our licensing guidance. This is language dependent.
 Java Run this to get the dependency license list.">
-<meta itemprop=name content="Tooling for open sourcing something">
+<meta itemprop=name content="Tooling">
 <meta itemprop=description content="When open sourcing a repository, we run a few compliance checks.
 Security We run snyk on all outgoing repositories. Snyk requires the build to happen, such that all the relevant dependencies are downloaded.
 Usage:
@@ -40,7 +40,7 @@ Java Run this to get the dependency license list.">
 <h1>eBay Open Source Program</h1><a href=https://github.com/ebay/ebay.github.io class=github><i class="fab fa-github"></i></a>
 </header>
 <div class=content-container>
-<main><h1>Tooling for open sourcing something</h1>
+<main><h1>Tooling</h1>
 <p>When open sourcing a repository, we run a few compliance checks.</p>
 <h2 id=security>Security</h2>
 <p>We run snyk on all outgoing repositories. Snyk requires the build to happen, such that all the relevant dependencies are downloaded.</p>
@@ -74,8 +74,8 @@ gem install github-linguist -- --with-icu-dir=/opt/local --with-cxxflags=-Wno-re
 <pre tabindex=0><code>npx repolinter lint . -u https://raw.githubusercontent.com/eBay/.github/main/repolinter.yaml
 </code></pre><p>The rules for the linter are <a href=https://github.com/eBay/.github/blob/main/repolinter.yaml>here on github</a>.</p>
 <div class=edit-meta>
-<br></div><nav class=pagination><a class="nav nav-prev" href=https://ebay.github.io/contributing/releasing-a-new-project/ title="Releasing a new project"><i class="fas fa-arrow-left" aria-hidden=true></i>&nbsp;Prev - Releasing a new project</a>
-<a class="nav nav-next" href=https://ebay.github.io/contributing/receiving-approval/ title="Approval process">Next - Approval process <i class="fas fa-arrow-right" aria-hidden=true></i></a>
+<br></div><nav class=pagination><a class="nav nav-prev" href=https://ebay.github.io/contributing/approval/ title="Approval process"><i class="fas fa-arrow-left" aria-hidden=true></i>&nbsp;Prev - Approval process</a>
+<a class="nav nav-next" href=https://ebay.github.io/contributing/cla-or-dco/ title="CLA vs DCO">Next - CLA vs DCO <i class="fas fa-arrow-right" aria-hidden=true></i></a>
 </nav><footer><p class=powered>Powered by <a href=https://gohugo.io>Hugo</a>. Theme by <a href=https://themes.gohugo.io/hugo-theme-techdoc/>TechDoc</a>. Designed by <a href=https://github.com/thingsym/hugo-theme-techdoc>Thingsym</a>.</p>
 </footer>
 </main>
@@ -86,8 +86,11 @@ gem install github-linguist -- --with-icu-dir=/opt/local --with-cxxflags=-Wno-re
 <li class=parent><a href=https://ebay.github.io/contributing/>Contributing to Open Source</a>
 <ul class=sub-menu>
 <li><a href=https://ebay.github.io/contributing/releasing-a-new-project/>Releasing a new project</a></li>
-<li class=active><a href=https://ebay.github.io/contributing/tooling/>Tooling for open sourcing something</a></li>
-<li><a href=https://ebay.github.io/contributing/receiving-approval/>Approval process</a></li>
+<li class=parent><a href=https://ebay.github.io/contributing/approval/>Approval process</a>
+<ul class=sub-menu>
+<li class=active><a href=https://ebay.github.io/contributing/approval/tooling/>Tooling</a></li>
+</ul>
+</li>
 <li><a href=https://ebay.github.io/contributing/cla-or-dco/>CLA vs DCO</a></li>
 <li><a href=https://ebay.github.io/contributing/incentives/>Incentives</a></li>
 <li><a href=https://ebay.github.io/contributing/licenses/>Licenses</a></li>
