@@ -11,6 +11,7 @@ We run snyk on all outgoing repositories. Snyk requires the build to happen, suc
 Usage:
 
 ```
+git clone ...
 cd path/to/repo
 # do the thing to build the project
 snyk test --all-projects
