@@ -45,7 +45,11 @@ cd path/to/repo
 touch pyproject.toml
 pylic check
 ```
-
+### Go
+```
+go install github.com/google/go-licenses@latest
+go-licenses check . --allowed_licenses=MIT,ISC,BSD-3-Clause,Apache-2.0,BSD-2-Clause,0BSD,CC-BY-4.0
+```
 
 ## Repolinter
 
