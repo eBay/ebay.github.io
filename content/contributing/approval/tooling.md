@@ -8,13 +8,15 @@ When open sourcing a repository, we run a few compliance checks.
 ## Security
 We run snyk on all outgoing repositories. Snyk requires the build to happen, such that all the relevant dependencies are downloaded.
 
+When installing snyk, it may ask you to log in. Do so with the company sso option.
+
 Usage:
 
 ```
 git clone ...
 cd path/to/repo
 # do the thing to build the project
-snyk test --all-projects
+npx snyk test --all-projects
 ```
 
 
