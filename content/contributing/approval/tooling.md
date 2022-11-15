@@ -19,9 +19,11 @@ cd path/to/repo
 npx snyk test --all-projects
 ```
 
+The output of that command will say if there are issues. If so, post it to the relevant ticket and have that person address them before open sourcing it.
+
 
 ## License Compliance
-We want to ensure that the software we build is in compliance with our [licensing guidance](../licences.md). This is language dependent.
+We want to ensure that the software we build is in compliance with our [licensing guidance](../licences.md). This is language dependent. The result of this should be a list of problematic licenses. If all are of the licenses that are output are on our approved list, this step passes.
 
 ### Java
 
@@ -58,17 +60,14 @@ go-licenses check . --allowed_licenses=MIT,ISC,BSD-3-Clause,Apache-2.0,BSD-2-Cla
 
 The TODO group has built a very helpful project around linting repos for adherence to policy.
 
-Install:
-```
-export GEM_HOME=/tmp
-export PATH=/tmp/bin:$PATH
-gem install licensee
-gem install github-linguist -- --with-icu-dir=/opt/local --with-cxxflags=-Wno-reserved-user-defined-literal
-```
+You'll need to install [docker](https://docker.com/)
 
 Usage:
 ```
-npx repolinter lint . -u https://raw.githubusercontent.com/eBay/.github/main/repolinter.yaml
+cd /path/to/repo
+docker run -it  -v $PWD:/source ghcr.io/todogroup/repolinter:v0.11.2  /source -u https://raw.githubusercontent.com/eBay/.github/main/repolinter.yaml
 ```
 
 The rules for the linter are [here on github](https://github.com/eBay/.github/blob/main/repolinter.yaml).
+
+It's expected that "integrates-with-ci" may not be done, given it hasn't existed in a github-actions environment until it's been open sourced. All other items in the list should be addressed before open sourcing it.
