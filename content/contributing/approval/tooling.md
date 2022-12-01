@@ -56,6 +56,12 @@ go install github.com/google/go-licenses@latest
 go-licenses check . --allowed_licenses=MIT,ISC,BSD-3-Clause,Apache-2.0,BSD-2-Clause,0BSD,CC-BY-4.0
 ```
 
+### PHP
+```
+composer require dominikb/composer-license-checker
+composer exec composer-license-checker -- check
+```
+
 ## Repolinter
 
 The TODO group has built a very helpful project around linting repos for adherence to policy.
