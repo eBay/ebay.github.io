@@ -1,4 +1,4 @@
-baseURL = 'https://ebay.github.io/'
+baseURL = 'https://opensource.ebay.com/'
 languageCode = 'en-us'
 title = 'eBay Open Source Program'
 # images = ['images/ebay.png']
