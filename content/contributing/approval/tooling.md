@@ -23,7 +23,7 @@ The output of that command will say if there are issues. If so, post it to the r
 
 
 ## License Compliance
-We want to ensure that the software we build is in compliance with our [licensing guidance](../licences/). This is language dependent. The result of this should be a list of problematic licenses. If all are of the licenses that are output are on our approved list, this step passes.
+We want to ensure that the software we build is in compliance with our [licensing guidance](/contributing/licenses/). This is language dependent. The result of this should be a list of problematic licenses. If all are of the licenses that are output are on our approved list, this step passes.
 
 ### Java
 
@@ -40,7 +40,7 @@ After installing dependencies, run this:
 npx license-checker --exclude "MIT,ISC,BSD-3-Clause,Apache-2.0,BSD-2-Clause,0BSD,CC-BY-4.0" --unknown
 ```
 
-That exclusion list should match our known [green license list](../licences/).
+That exclusion list should match our known [green license list](/contributing/licenses/).
 
 ### Python
 
