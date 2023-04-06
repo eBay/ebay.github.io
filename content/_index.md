@@ -16,8 +16,12 @@ If you have questions on this process, please reach out in the `#ebay-opensource
 
 ## Committee members
 
-- Chair: [Justin Abrahms](https://www.linkedin.com/in/justinabrahms)
-- Legal: [Michelle Martinez](https://www.linkedin.com/in/michelle-martinez-a002904/)
+- Chair: TBD
+- Legal: [Matthew Seeley](https://www.linkedin.com/in/matthew-seeley-87811297/)
 - InfoSec: REDACTED
 - Security: [Praveen Malhan](https://www.linkedin.com/in/praveenmalhan/)
 - Engineering: [Andrew Wooldridge](https://www.linkedin.com/in/andrewwooldridge/)
+
+### Emeritus
+-  [Michelle Martinez](https://www.linkedin.com/in/michelle-martinez-a002904/)
+-  [Justin Abrahms](https://www.linkedin.com/in/justinabrahms)
