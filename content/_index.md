@@ -16,9 +16,8 @@ If you have questions on this process, please reach out in the `#ebay-opensource
 
 ## Committee members
 
-- Chair: TBD
-- Legal: [Matthew Seeley](https://www.linkedin.com/in/matthew-seeley-87811297/)
-- InfoSec: REDACTED
+- Chair: [Matt Drazba](https://www.linkedin.com/in/mattdrazba/)
+- Legal: TBD
 - Security: [Praveen Malhan](https://www.linkedin.com/in/praveenmalhan/)
 - Engineering: [Andrew Wooldridge](https://www.linkedin.com/in/andrewwooldridge/)
 
