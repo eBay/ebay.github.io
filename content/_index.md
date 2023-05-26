@@ -16,8 +16,8 @@ If you have questions on this process, please reach out in the `#ebay-opensource
 
 ## Committee members
 
-- Chair: [Matt Drazba](https://www.linkedin.com/in/mattdrazba/)
-- Legal: TBD
+- Product Strategy: [Matt Drazba](https://www.linkedin.com/in/mattdrazba/)
+- Legal: [Heather Woodward](https://www.linkedin.com/in/heather-woodward-78966093)
 - Security: [Praveen Malhan](https://www.linkedin.com/in/praveenmalhan/)
 - Engineering: [Andrew Wooldridge](https://www.linkedin.com/in/andrewwooldridge/)
 
