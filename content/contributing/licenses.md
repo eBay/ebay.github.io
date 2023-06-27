@@ -2,7 +2,11 @@
 title: Licenses
 ---
 
+**Outbound Licensing Requests** (i.e. "how do I contribute software developed at eBay to the Open Source Community?"):
+
 Absent other compelling reasons, eBay releases software under the Apache 2.0 license.
+
+**Inbound Licensing Requests** (i.e. "how do I use Open Source software at eBay")
 
 eBay uses a red/yellow/green designation to indicate license risk to the company. The authoritative source of truth here is snyk, which we use to ensure the policy is met. All projects licensed under non-"green" licenses must go through an approval process. If something isn't listed here, it needs to go through the approval process.
 
